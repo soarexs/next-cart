@@ -45,9 +45,9 @@ export function Requests() {
             </ContainerTitle>
             <ContainerRequests>
                 {
-                    orders.map((order: IOrder) => {
+                    orders.map((order: IOrder, id: number) => {
                         return (
-                            <Request>
+                            <Request key={id}>
                                 <ContainerImg>
                                     <img src={order.imagem} alt="" />
                                 </ContainerImg>
