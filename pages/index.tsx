@@ -1,9 +1,9 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import { Header } from '../components/Header/Header'
-import { Requests } from '../components/Requests/Requests'
+import styles from '../src/styles/Home.module.css'
+import { Header } from '../src/components/Header/Header'
+import { Requests } from '../src/components/Requests/Requests'
 
 const Home: NextPage = () => {
   return (

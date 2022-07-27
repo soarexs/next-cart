@@ -15,12 +15,6 @@ a {
   box-sizing: border-box;
 }
 
-:root {
-  --white: #ffffff;
-  --blue: #2f3a58;
-  --text: #acacac;
-}
-
 body {
-  background-color: var(--blue);
+  background-color: #2f3a58;
 }
